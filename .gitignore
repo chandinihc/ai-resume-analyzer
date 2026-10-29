@@ -1,0 +1,32 @@
+# Local environments
+.venv/
+venv/
+env/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local data
+backend/instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and generated output
+node_modules/
+frontend/node_modules/
+dist/
+build/
+frontend/dist/
